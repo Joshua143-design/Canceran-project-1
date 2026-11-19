@@ -60,7 +60,7 @@ header {
 .logo {
     font-size: 25px;
     font-weight: 700;
-    color: #26352B;
+    color: #2b2635;
 }
 
 .nav-links {
@@ -76,7 +76,7 @@ header {
 }
 
 .nav-links a:hover {
-    color: #829477;
+    color: #00ff37;
 }
 
 /* HOME SECTION */
