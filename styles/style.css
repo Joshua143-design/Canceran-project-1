@@ -245,6 +245,31 @@ footer {
     font-size: 14px;
 }
 
+/* CONTACT SECTION */
+
+.contact {
+    background-color: #E8EDE3;
+    text-align: center;
+}
+
+.contact > p {
+    color: #59665B;
+    margin-bottom: 25px;
+}
+
+.contact-info {
+    display: inline-block;
+    background-color: #F5F3EA;
+    padding: 25px 40px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #59665B;
+}
+
 /* RESPONSIVE DESIGN */
 
 @media screen and (max-width: 900px) {
