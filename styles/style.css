@@ -137,8 +137,8 @@ header {
 }
 
 .home-image img {
-    width: 320px;
-    height: 380px;
+    width: 380px;
+    height: 390px;
     object-fit: cover;
     border-radius: 45% 45% 20px 20px;
     border: 8px solid #DCE5D5;
