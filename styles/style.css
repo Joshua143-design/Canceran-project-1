@@ -267,29 +267,47 @@ footer {
     font-size: 14px;
 }
 
-/* CONTACT SECTION */
+/* Contact Section */
 
 .contact {
-    background-color: #E8EDE3;
     text-align: center;
 }
 
-.contact > p {
-    color: #59665B;
-    margin-bottom: 25px;
-}
-
 .contact-info {
-    display: inline-block;
-    background-color: #F5F3EA;
-    padding: 25px 40px;
-    border-radius: 15px;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
 
-.contact-info p {
-    margin: 10px 0;
-    color: #59665B;
+.contact-item {
+    background: #E8EDE3;
+    padding: 25px;
+    border-radius: 10px;
+    min-width: 220px;
+    transition: 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+}
+
+.contact-item h3 {
+    color: #26352B;
+    margin-bottom: 10px;
+}
+
+.contact-item a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.contact-item a:hover {
+    color: #00abf0;
 }
 
 /* RESPONSIVE DESIGN */
