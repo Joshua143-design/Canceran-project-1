@@ -199,6 +199,28 @@ header {
     color: #59665B;
 }
 
+/* EDUCATION SECTION */
+
+.education-card {
+    max-width: 700px;
+    margin: auto;
+    padding: 35px;
+    background-color: #E8EDE3;
+    border-left: 6px solid #829477;
+    border-radius: 12px;
+}
+
+.education-card h3 {
+    color: #657D61;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.education-card p {
+    color: #59665B;
+    font-size: 15px;
+}
+
 /* PROJECTS SECTION */
 
 .projects {
